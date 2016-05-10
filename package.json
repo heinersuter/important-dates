@@ -1,0 +1,15 @@
+{
+  "name": "important-dates",
+  "version": "0.1.0",
+  "description": "Displays the most important days in my life.",
+  "author": "Heiner Suter",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-typescript": "^2.13.0",
+    "tsd": "^0.6.5"
+  }
+}

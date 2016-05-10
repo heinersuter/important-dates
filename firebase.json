@@ -1,0 +1,8 @@
+{
+  "firebase": "important-dates",
+  "public": "src",
+  "ignore": [
+    "**/*.ts",
+    "**/*.less"
+  ]
+}
