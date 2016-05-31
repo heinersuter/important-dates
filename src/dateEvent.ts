@@ -63,7 +63,7 @@ namespace DaEv {
                     this.wholeMonths = (this.currentDate.getFullYear() - this.date.getFullYear()) * 12 + this.currentDate.getMonth() - this.date.getMonth();
                 }
                 else {
-                    this.wholeMonths = (this.currentDate.getFullYear() - this.date.getFullYear()) * 12 - (this.currentDate.getMonth() - this.date.getMonth()) - 12;
+                    this.wholeMonths = (this.currentDate.getFullYear() - this.date.getFullYear()) * 12 - (this.date.getMonth() - this.currentDate.getMonth());
                 }
             } else {
                 this.wholeMonths = null;
