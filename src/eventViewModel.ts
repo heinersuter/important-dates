@@ -3,6 +3,8 @@
 
 namespace DaEv {
 
+    export var heiner: DateEvent = new DateEvent(new Date(1979, 3 - 1, 20));
+    export var sabine: DateEvent = new DateEvent(new Date(1979, 12 - 1, 24));
     export var together: DateEvent = new DateEvent(new Date(2012, 9 - 1, 30));
     export var married: DateEvent = new DateEvent(new Date(2015, 5 - 1, 30));
     export var yannik: DateEvent = new DateEvent(new Date(2015, 10 - 1, 28));
