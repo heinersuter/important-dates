@@ -1,8 +1,10 @@
 {
-  "firebase": "important-dates",
-  "public": "src",
-  "ignore": [
-    "**/*.ts",
-    "**/*.less"
-  ]
+  "hosting": {
+    "firebase": "important-dates",
+    "public": "src",
+    "ignore": [
+      "**/*.ts",
+      "**/*.less"
+      ]
+  }
 }

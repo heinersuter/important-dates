@@ -4,12 +4,19 @@
   "description": "Displays the most important days in my life.",
   "author": "Heiner Suter",
   "license": "ISC",
+  "scripts": {
+    "tsd": "tsd install",
+    "gulp": "gulp",
+    "fb-login": "firebase login",
+    "fb": "firebase deploy --project firebase-important-dates"
+  },
   "dependencies": {},
   "devDependencies": {
-    "firebase-tools": "^2.2.1",
+    "firebase-tools": "^3.17.6",
     "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0",
-    "gulp-typescript": "^2.13.0",
-    "tsd": "^0.6.5"
+    "gulp-less": "^4.0.0",
+    "gulp-typescript": "^4.0.1",
+    "tsd": "^0.6.5",
+    "typescript": "^2.7.2"
   }
 }

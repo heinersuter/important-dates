@@ -8,6 +8,7 @@ namespace DaEv {
     export var together: DateEvent = new DateEvent(new Date(2012, 9 - 1, 30));
     export var married: DateEvent = new DateEvent(new Date(2015, 5 - 1, 30));
     export var yannik: DateEvent = new DateEvent(new Date(2015, 10 - 1, 28));
+    export var nilas: DateEvent = new DateEvent(new Date(2018, 2 - 1, 11));
 	// civil registry: 30.04.2015
 	// engagement: 30.08.2014
 
