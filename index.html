@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Heiner Suter">
+    <title>Wichtige Daten</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="container">
+<h1>Wichtige Daten von Sabine und Heiner</h1>
+
+<div id="events" class="row">
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Heiner: <span id=heinerDays></span> (<span id=heinerDate></span>)</div>
+            <div id=heinerMonths><span id=heinerMonthsValue></span><img src="img/LaurelWrathSilver.png" alt="Silber"/>
+            </div>
+            <div id=heinerYears><span id=heinerYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/></div>
+            <div id=heinerSum></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Sabine: <span id=sabineDays></span> (<span id=sabineDate></span>)</div>
+            <div id=sabineMonths><span id=sabineMonthsValue></span><img src="img/LaurelWrathSilver.png" alt="Silber"/>
+            </div>
+            <div id=sabineYears><span id=sabineYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/></div>
+            <div id=sabineSum></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Zusammen: <span id=togetherDays></span> (<span id=togetherDate></span>)</div>
+            <div id=togetherMonths><span id=togetherMonthsValue></span><img src="img/LaurelWrathSilver.png"
+                                                                            alt="Silber"/></div>
+            <div id=togetherYears><span id=togetherYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/>
+            </div>
+            <div id=togetherSum></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Verheiratet: <span id=marriedDays></span> (<span id=marriedDate></span>)</div>
+            <div id=marriedMonths><span id=marriedMonthsValue></span><img src="img/LaurelWrathSilver.png" alt="Silber"/>
+            </div>
+            <div id=marriedYears><span id=marriedYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/></div>
+            <div id=marriedSum></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Yannik: <span id=yannikDays></span> (<span id=yannikDate></span>)</div>
+            <div id=yannikMonths><span id=yannikMonthsValue></span><img src="img/LaurelWrathSilver.png" alt="Silber"/>
+            </div>
+            <div id=yannikYears><span id=yannikYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/></div>
+            <div id=yannikSum></div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+        <div class="event">
+            <div>Nilas: <span id=nilasDays></span> (<span id=nilasDate></span>)</div>
+            <div id=nilasMonths><span id=nilasMonthsValue></span><img src="img/LaurelWrathSilver.png" alt="Silber"/>
+            </div>
+            <div id=nilasYears><span id=nilasYearsValue></span><img src="img/LaurelWrathGold.png" alt="Gold"/></div>
+            <div id=nilasSum></div>
+        </div>
+    </div>
+</div>
+
+<script src="dateEvent.js"></script>
+<script src="index.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        setValues("heiner", heiner);
+        setValues("sabine", sabine);
+        setValues("together", together);
+        setValues("married", married);
+        setValues("yannik", yannik);
+        setValues("nilas", nilas);
+    });
+</script>
+</body>
+
+</html>
