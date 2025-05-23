@@ -6,7 +6,6 @@ const yannik = new DateEvent(new Date(2015, 10 - 1, 28));
 const nilas = new DateEvent(new Date(2018, 2 - 1, 11));
 // civil registry: 30.04.2015
 // engagement: 30.08.2014
-
 function setValues(name, event) {
     const days = event.getTotalDays();
     document.getElementById(name + "Days").textContent = this.printDays(days);
