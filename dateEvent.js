@@ -73,13 +73,13 @@ class DateEvent {
         let sumYears = 0;
         while (this.#addYear(date, day).valueOf() <= this.currentDate.valueOf()) {
             date = this.#addYear(date, day);
-            this.sumYears++;
+            sumYears++;
         }
 
         let sumMonths = 0;
         while (this.#addMonth(date, day).valueOf() <= this.currentDate.valueOf()) {
             date = this.#addMonth(date, day);
-            this.sumMonths++;
+            sumMonths++;
         }
 
         let days = this.#differenceDays(date, this.currentDate);

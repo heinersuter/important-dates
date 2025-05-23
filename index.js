@@ -1,4 +1,4 @@
-﻿const heiner = new DateEvent(new Date(1979, 3 - 1, 20));
+﻿const heiner = new DateEvent(new Date(1979, 5 - 1, 23));
 const sabine = new DateEvent(new Date(1979, 12 - 1, 24));
 const together = new DateEvent(new Date(2012, 9 - 1, 30));
 const married = new DateEvent(new Date(2015, 5 - 1, 30));
@@ -10,7 +10,11 @@ const nilas = new DateEvent(new Date(2018, 2 - 1, 11));
 function setValues(name, event) {
     const days = event.getTotalDays();
     document.getElementById(name + "Days").textContent = this.printDays(days);
-    document.getElementById(name + "Date").textContent = event.getDate().toLocaleDateString();
+    document.getElementById(name + "Date").textContent = event.getDate().toLocaleDateString('de-CH', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+    });
 
     const years = event.getWholeYears();
     if (years != null) {
@@ -84,5 +88,5 @@ function printDays(days) {
     if (!days) {
         return "";
     }
-    return days.toString() + (days === 1 ? " Tag" : " Tage");
+    return days.toLocaleString('de-CH') + (days === 1 ? " Tag" : " Tage");
 }
