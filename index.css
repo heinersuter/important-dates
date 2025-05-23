@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: large;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    position: relative;
+    background-color: lightblue;
+    margin-bottom: 8px;
+    padding: 16px 8px;
+}
+
+.event img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 24px;
+    top: 18px;
+}
+
+.event div {
+    margin-bottom: 6px;
+}
