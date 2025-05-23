@@ -1,4 +1,4 @@
-﻿const heiner = new DateEvent(new Date(1979, 5 - 1, 23));
+﻿const heiner = new DateEvent(new Date(1979, 3 - 1, 20));
 const sabine = new DateEvent(new Date(1979, 12 - 1, 24));
 const together = new DateEvent(new Date(2012, 9 - 1, 30));
 const married = new DateEvent(new Date(2015, 5 - 1, 30));
